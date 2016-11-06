@@ -98,4 +98,8 @@ a:hover {
   .container {
     width: 90%;
   }
+
+  .accounts li {
+    padding-left: 0;
+  }
 }
