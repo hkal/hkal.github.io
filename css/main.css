@@ -54,7 +54,7 @@ a:hover {
 }
 
 .indent {
-  padding-left: 3rem;;
+  padding-left: 1rem;
 }
 
 .container {
@@ -88,4 +88,14 @@ a:hover {
 .position {
   font-weight: 600;
   padding-bottom: .5rem;
+}
+
+@media screen and (max-width: 632px) {
+  .indent {
+    padding-left: 0;
+  }
+
+  .container {
+    width: 90%;
+  }
 }
